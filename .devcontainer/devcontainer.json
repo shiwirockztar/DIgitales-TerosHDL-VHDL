@@ -9,7 +9,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "teroshdl.teroshdl",
+        "teros-technology.teroshdl",
         "redhat.vscode-yaml",
         "ms-vscode.makefile-tools"
       ],
