@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     gtkwave \
     build-essential \
     git \
+    git-lfs \
     && rm -rf /var/lib/apt/lists/*
 
 # Configurar el entorno
