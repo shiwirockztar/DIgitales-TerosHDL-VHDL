@@ -1,0 +1,22 @@
+{
+  "name": "TerosHDL VHDL Development",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "teroshdl.teroshdl",
+        "redhat.vscode-yaml",
+        "ms-vscode.makefile-tools"
+      ],
+      "settings": {
+        "teroshdl.documentation.enable": true,
+        "teroshdl.vhdl.standar": "2008"
+      }
+    }
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y ghdl gtkwave",
+  "remoteUser": "root"
+}
