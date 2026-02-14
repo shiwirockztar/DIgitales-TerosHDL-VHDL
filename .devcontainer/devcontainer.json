@@ -19,6 +19,6 @@
       }
     }
   },
-  "postCreateCommand": "git lfs install",
+  "postCreateCommand": "git lfs install && cp -f .teroshdl/teroshdl2_prj.json /root/.teroshdl2_prj.json",
   "remoteUser": "root"
 }
